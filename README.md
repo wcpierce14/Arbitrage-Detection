@@ -32,4 +32,10 @@ This file also contains __init__, __repr__ and isEqual functions
 
 ####################################################################################
 
-arbitrageTests.py contains the testRates function that tests all of the provided exchange rate examples to look for arbitrage opportunities.
+arbitrageTests.py contains the testRates function that tests all of the provided exchange rate examples to check for arbitrage opportunities.
+
+####################################################################################
+
+arbitrage.py is contains the code that executes the Bellman Ford Algorithm. Within it, there are two functions: rates2mat and detectArbitrage.
+
+
