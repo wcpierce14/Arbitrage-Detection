@@ -4,6 +4,7 @@ This project implements the Bellman-Ford algorithm to detect arbitrage opportuni
 
 
 currencies.py is a Currencies Class that has 5 instance variables:
+
 rates = a 2D array representing the exchange rates
 currs: a list of the currency names as strings
 adjList: the adjacency list of Vertex objects
@@ -12,6 +13,7 @@ negCyc: what will ultimately contain the negative cost cycle, stored as a list o
 
 
 vertex.py contains the Vertex class that has 4 instance variables:
+
 rank: the rank (label) of the given vertex
 neigh: the list of the neighboring vertices
 dist: the distance from the start vertex
